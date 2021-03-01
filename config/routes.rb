@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/api/user', to: 'user#show'
   delete '/api/user/:id', to: 'user#delete'
   post '/api/user', to: 'user#create'
+  post '/api/login', to: 'login#create'
 end
